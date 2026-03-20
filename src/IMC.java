@@ -7,9 +7,6 @@ public class IMC {
         System.out.println("você é do sexo masculino ou feminino (M ou F): ");
         String sexo = scanner.nextLine().toUpperCase();
 
-        System.out.println("insira a sua massa corporal: ");
-        float massa = scanner.nextFloat();
-
         System.out.println("insira a sua altura: ");
         float altura = scanner.nextFloat();
 
