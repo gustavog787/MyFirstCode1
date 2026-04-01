@@ -1,6 +1,7 @@
+package ExerciciosIfElse;
 import java.util.Scanner;
 
-public class IMC {
+public class Exercicio6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -11,10 +12,11 @@ public class IMC {
         float altura = scanner.nextFloat();
 
         switch (sexo){
-            case "M" -> System.out.printf("seu peso ideal é de %.3fKg", (72.7 * altura) - 58);
-            case "F" -> System.out.printf("seu peso ideal é de %.3fKg", (62.1 * altura) - 44.7);
+            case "M": System.out.printf("seu peso ideal é de %.3fKg", (72.7 * altura) - 58);
+           break;
+            case "F":  System.out.printf("seu peso ideal é de %.3fKg", (62.1 * altura) - 44.7);
+            break;
         }
-
-
+        scanner.close();
     }
 }

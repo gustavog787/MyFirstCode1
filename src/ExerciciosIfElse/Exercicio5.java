@@ -1,6 +1,7 @@
+package ExerciciosIfElse;
 import java.util.Scanner;
 
-public class Exercíciosaula3 {
+public class Exercicio5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
