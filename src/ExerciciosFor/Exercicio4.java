@@ -7,6 +7,7 @@ public class Exercicio4 {
         Scanner scanner=new Scanner(System.in);
 
         int velinho=0;
+        float media=0;
        
         for(int i=1; i<=10; i++){
         System.out.println("insira a sua idade: ");
@@ -17,9 +18,10 @@ public class Exercicio4 {
         if(idade >50){
             velinho++;
         } 
-        float media=altura*velinho;
-         System.out.println("a média das alturas das pessoas maiores de 50 anos é de: " + media);
+        media=altura*velinho;
+         
         }
+        System.out.println("a média das alturas das pessoas maiores de 50 anos é de: " + media);
     }
     
 }
